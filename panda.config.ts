@@ -12,7 +12,13 @@ export default defineConfig({
 
   // Useful for theme customization
   theme: {
-    extend: {},
+    extend: {
+      tokens: {
+        fonts: {
+          Virgil: { value: 'var(--font-Virgil)' },
+        }
+      }
+    },
   },
 
   // The output directory for your css system
