@@ -1,7 +1,8 @@
 import { css } from '../styled-system/css';
+import Top from './pages/Top';
  
 export default function App() {
   return (
-    <div className={css({ fontSize: "2xl", fontWeight: 'bold' })}>Hello 🐼!</div>
+    <Top />
   )
 }
