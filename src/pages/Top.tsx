@@ -25,8 +25,7 @@ export default function App() {
       >
       Mukai Sora a.k.a. fof
       </p>
-      <a
-      href='/pages/Contact.tsx'
+      <p
       className={css({
         fontFamily: 'Virgil',
         fontSize: 40,
@@ -36,7 +35,7 @@ export default function App() {
       })}
       >
       @4OF-fof
-      </a>
+      </p>
       </div>
       </div>
   )
