@@ -1,14 +1,7 @@
-import { styled } from '../styled-system/jsx';
+import { css } from '../styled-system/css';
  
-function App() {
+export default function App() {
   return (
-    <Hello>Hello 🐼!</Hello>
+    <div className={css({ fontSize: "2xl", fontWeight: 'bold' })}>Hello 🐼!</div>
   )
 }
- 
-const Hello = styled.div`
-  font-size: 24px;
-  font-weight: bold;
-`
-
-export default App;
