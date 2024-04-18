@@ -1,8 +1,8 @@
 import { css } from '../styled-system/css';
-import Top from './pages/Top';
+import About from './pages/About';
  
 export default function App() {
   return (
-    <Top />
+    <About />
   )
 }
