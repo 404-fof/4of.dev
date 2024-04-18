@@ -1,37 +1,42 @@
 import { css } from '../../styled-system/css';
-import Icon from '../components/Icon';
  
 export default function App() {
   return (
     <div
     className={css({
       display: 'flex',
-      justifyContent: 'center',
       alignItems: 'center',
+      justifyContent: 'center',
       height: '100vh',
-      border: '30px solid #d35657',
+      border: '3vmin solid #d35657',
       backgroundColor: '#fefeff',
     })}
     >
-      <Icon />
+      <img 
+        src='./icon.png'
+        className={css({
+          height: '40vmin',
+          aspectRatio: '1/1',
+          rounded: '100%',
+          border: '0.5vmin solid black',
+          marginLeft: '2vw',
+        })}
+      />
       <div>
-      <p
+      <text
       className={css({
         fontFamily: 'Virgil',
-        fontSize: 85,
-        marginLeft: 10,
-        marginBottom: 0,
+        fontSize: '9vmin',
+        marginLeft: '2vw',
       })}
       >
       Mukai Sora a.k.a. fof
-      </p>
+      </text>
       <p
       className={css({
         fontFamily: 'Virgil',
-        fontSize: 40,
-        fontWeight: 'bold',
-        marginLeft: 10,
-        marginTop: 0,
+        fontSize: '6vmin',
+        marginLeft: '2vw',
       })}
       >
       @4OF-fof
