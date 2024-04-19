@@ -20,24 +20,14 @@ export default function About() {
         marginTop: '3vh',
         border: '1vmin solid #d35657',
         borderRadius: '15',
-      })}
-      >
-        <img 
-        src='./icon.png'
-        className={css({
-          height: '7vmin',
-          aspectRatio: '1/1',
-          rounded: '100%',
-          border: '0.3vmin solid black',
-          marginLeft: '2vw',
-        })}/>
+      })}>
         <a
         className={css({
           font: 'Virgil',
           fontSize: '4vmin',
           fontWeight: 'bold',
           height: '100%',
-          width: '20vw',
+          width: '26vw',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -62,7 +52,7 @@ export default function About() {
           fontSize: '4vmin',
           fontWeight: 'bold',
           height: '100%',
-          width: '20vw',
+          width: '26vw',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -87,7 +77,7 @@ export default function About() {
           fontSize: '4vmin',
           fontWeight: 'bold',
           height: '100%',
-          width: '20vw',
+          width: '26vw',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
